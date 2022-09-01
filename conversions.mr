@@ -1,7 +1,6 @@
 module {
     @name:      "Conversions"
-    @author:    "ATG (Ange Yaghi)"
-    @copyright: "Copyright 2022, Ange Yaghi"
+    @author:    "ATG (Ange Yaghi)
 }
 
 private import "atomic_types.mr"
@@ -15,7 +14,6 @@ public node int_to_float => __engine_sim__int_to_float {
 // String conversions
 public node int_to_string => __engine_sim__int_to_string {
     input __in [int];
-    alias output __out [string];
 }
 
 // Integer conversions
